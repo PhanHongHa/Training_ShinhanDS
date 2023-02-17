@@ -1,9 +1,9 @@
 # Practice Week 8
 ### Task 1:
-![rs1](https://user-images.githubusercontent.com/72399528/219721253-c8d61ae7-2901-4969-b7fd-c337438a1a11.png)
+![t1](https://user-images.githubusercontent.com/72399528/219721257-f4fcc807-7ed6-47f6-a877-7b02712677c8.png)
 
 ### Result 1:
-![t1](https://user-images.githubusercontent.com/72399528/219721257-f4fcc807-7ed6-47f6-a877-7b02712677c8.png)
+![rs1](https://user-images.githubusercontent.com/72399528/219721253-c8d61ae7-2901-4969-b7fd-c337438a1a11.png)
 
 ### Task 2 (Department):
 ![t2 1](https://user-images.githubusercontent.com/72399528/219721259-45885ab8-613b-477e-8811-5ede208244b0.png)
