@@ -1,5 +1,6 @@
 package com.example.demoSpringBootTestsActutorDevTools;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -39,5 +40,8 @@ class TutorialRepositoryTest {
     @Test
     void findByTitleContaining() {
         List<Tutorial> findByTitleContaining = tutorialRepository.findByTitleContaining("alo");
+        findByTitleContaining.forEach(t ->
+                Assertions.assertThat(t.getTitle()).containsIgnoringCase("alo")
+        );
     }
 }
