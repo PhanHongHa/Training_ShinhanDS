@@ -75,7 +75,7 @@ management.endpoints.web.exposure.include=*
 management.endpoint.shutdown.enabled=true
 ```
 
-* Actuaotr Endpoints:
+* Actuator Endpoints:
 ![ActuatorEndpoints](https://user-images.githubusercontent.com/72399528/220692824-81b3207d-f917-4450-90e0-d068c5f782d5.png)
 
 * Actuator Health:
