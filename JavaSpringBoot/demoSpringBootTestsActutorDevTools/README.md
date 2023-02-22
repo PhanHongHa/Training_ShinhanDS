@@ -96,6 +96,9 @@ management.endpoint.shutdown.enabled=true
 </dependency>
 ```
 
+*  DevTools Config:
+![Screenshot 2023-02-22 235835](https://user-images.githubusercontent.com/72399528/220702861-b37490d3-3100-445a-bb10-ac9e632f6488.png)
+
 * Before:
 ![DevTools (before)](https://user-images.githubusercontent.com/72399528/220694366-70efb2fe-fa03-4541-acdb-cf5d99615df7.png)
 
