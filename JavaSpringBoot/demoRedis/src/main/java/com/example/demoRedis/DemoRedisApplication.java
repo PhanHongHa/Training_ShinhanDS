@@ -30,9 +30,19 @@ public class DemoRedisApplication {
 		List<String> list = new ArrayList<>();
 		list.add("hello");
 		list.add("redis");
+		list.add("Hà nè");
+		list.add("Spring boot");
 		template.opsForList().rightPushAll("likelion_list", list);
 		System.out.println("Size of key likelion:"+template.opsForList().size("likelion_list"));
 	}
+
+//	@Bean
+//	CommandLineRunner commandLineRunner(RedisTemplate<Object, Object> redisTemplate){
+//		return args ->{
+//			redisTemplate.opsForValue().set("likelion","hello redis");
+//			System.out.println("Value of key likelion: "+ redisTemplate.opsForValue().get("likelion"));
+//		};
+//	}
 
 
 }
